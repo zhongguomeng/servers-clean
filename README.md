@@ -8,4 +8,4 @@
 
 ### 一行命令
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/your-username/servers-clean/main/clean.sh)
+bash <(curl -s https://raw.githubusercontent.com/zhongguomeng/servers-clean/main/clean.sh) --force

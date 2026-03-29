@@ -2,7 +2,7 @@
 # ============================================
 # Servers Clean - 服务器安全清理脚本
 # 版本: 1.0.0
-# 仓库: https://github.com/your-username/servers-clean
+# 仓库: https://github.com/zhongguomeng/servers-clean
 # 说明: 支持 Ubuntu/Debian/CentOS/RHEL/Alpine
 #       安全清理 Docker、containerd、系统缓存
 # ============================================
@@ -75,7 +75,7 @@ ${BLUE}Servers Clean v${VERSION} - 服务器安全清理脚本${NC}
 支持系统: Ubuntu, Debian, CentOS, RHEL, Alpine, Fedora, OpenSUSE, Arch
 
 用法: 
-  bash <(curl -s https://raw.githubusercontent.com/your-username/servers-clean/main/clean.sh)
+  bash <(curl -s https://raw.githubusercontent.com/zhongguomeng/servers-clean/main/clean.sh)
 
 选项:
   --help, -h      显示帮助信息
@@ -87,13 +87,13 @@ ${BLUE}Servers Clean v${VERSION} - 服务器安全清理脚本${NC}
 
 示例:
   # 交互式清理（推荐）
-  bash <(curl -s https://raw.githubusercontent.com/your-username/servers-clean/main/clean.sh)
+  bash <(curl -s https://raw.githubusercontent.com/zhongguomeng/servers-clean/main/clean.sh)
   
   # 自动清理（跳过确认）
-  bash <(curl -s https://raw.githubusercontent.com/your-username/servers-clean/main/clean.sh) --force
+  bash <(curl -s https://raw.githubusercontent.com/zhongguomeng/servers-clean/main/clean.sh) --force
   
   # 只清理 Docker
-  bash <(curl -s https://raw.githubusercontent.com/your-username/servers-clean/main/clean.sh) --no-system
+  bash <(curl -s https://raw.githubusercontent.com/zhongguomeng/servers-clean/main/clean.sh) --no-system
 
 EOF
     exit 0
